@@ -4,6 +4,8 @@ body {
   line-height: 1.5;
   background-color: #fff1e6;
 }
+@import "insert link of the font";
+
 section {
   background-color: #ffd5c2;
   width: auto;
