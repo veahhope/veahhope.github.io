@@ -1,203 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Press+Start+2P&display=swap");
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+html {
+  background: url("assignments/veahhope.github.io/img/watercolor.png");
+  background-size: cover;
+}
+
 body {
-  font-family: "Rockwell-Regular", "Arial", serif;
+  font-family: 'Jost', sans-serif;
   color: #000000;
   line-height: 1.5;
-  background-color: #fff1e6;
-}
-@import "insert link of the font";
-
-section {
-  background-color: #ffd5c2;
-  width: auto;
-  margin-top: 4em;
-  margin-bottom: 4em;
-  margin-left: 4em;
-  margin-right: 4em;
-  padding: 10px;
-  border-top-style: double;
-  border-right-style: double;
-  border-bottom-style: double;
-  border-left-style: double;
-  border-color: rgb(200, 85, 61);
-  border-top-width: 12px;
-  border-right-width: 12px;
-  border-bottom-width: 12px;
-  border-left-width: 12px;
 }
 
 header {
-  width: 960px;
-  padding-top: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-  padding-left: 2em;
-  margin-top: 4em;
-  margin-bottom: 4em;
-  margin-left: 4em;
-  margin-right: 4em;
+  font-family: 'Press Start 2P', cursive;
+	margin: auto;
 }
 
-img {
-  width: auto;
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
+main {
+	padding-top: 10px;
 }
-
 
 nav {
-  width: auto;
-  display: inline-block;
-  padding: 2em;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  margin-left: 4em;
-  margin-right: 4em;
+  left: 0;
+  width: 100%;
+	margin-top: 0;
 }
 
 nav ul {
   padding-left: 0;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  display: inline-block;
-  list-style-type: square;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  border-top-width: 1px;
-  border-right-width: 1px;
+  list-style: none;
 }
 
 nav li {
   display: inline-block;
   margin-right: 20px;
-  margin-left: 20px;
-  background-color: #ffd5c2;
-  box-shadow: 8px 12px 8px 4px rgba(84,8,4,0.6)
+  box-shadow: 4px 14px 18px 1px rgba(0,0,0,0.43);
 }
 
 nav a {
   display: inline-block;
-  background-color: #ffd5c2;
-  padding-top: 15px;
-  padding-right: 45px;
-  padding-bottom: 15px;
-  padding-left: 45px;
-  border-top-style: double;
-  border-right-style: double;
-  border-bottom-style: double;
-  border-left-style: double;
-  border-top-width: 12px;
-  border-right-width: 12px;
-  border-bottom-width: 12px;
-  border-left-width: 12px;
-  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 5px;
+  border-style: outset;
+  border-width: 2px;
 }
 
 nav a:link {
-  color: rgb(200, 85, 61);
+  color: #8093f1;
 }
 
 nav a:visited {
-  color: hsl(28, 88%, 59%);
+  color: #f72585;
 }
 
 nav a:hover {
-  color: #588b8b;
+  color: #b388eb;
 }
+
 nav a:active {
-  color: #540804;
-}
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-  grid-template-areas:
-    "introduction    geography"
-    "economy  communication";
+  color: #f7aef8;
 }
 
-#introduction {
-  grid-area: introduction;
+ul > li {
+  display: inline-block;
+  position: relative;
 }
 
-#geography {
-  grid-area: geography;
+ul > li > ul {
+  display: none;
 }
 
-#economy {
-  grid-area: economy;
-}
-
-#communication {
-  grid-area: communication;
-}
-
-#wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.center {
+ul > li:hover > ul {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  position: fixed;
 }
+
+ul > li > ul > li {
+  display: block;
+}
+
+
 
 a:link {
-  color: rgb(200, 85, 61);
-}
-
-a:visited {
-  color: hsl(28, 88%, 59%);
-}
-
-a:hover {
-  color: #588b8b;
-}
-
-a:active {
-  color: #540804;
-}
-
-
-h1 {
-  color: #dd1c1a;
-  font-size: 72px;
-  font-family: "Luminari-Regular", "Arial", serif;
-}
-
-h2 {
-  margin-top: 0;
-  color: #588b8b;
-}
-
-h3 {
-  color: hsl(28, 88%, 59%);
-}
-
-footer p {
-
-  margin-left: 4em;
   color: #000000;
 }
 
-ul li {
-  list-style-type: square;
-  color: rgb(200, 85, 61);
+a:visited {
+  color: #ff6392;
 }
 
-table {
-  color: rgb(200, 85, 61);
+a:hover {
+  color: #b388eb;
 }
 
-p {
-  color: rgb(200, 85, 61);
+a:active {
+  color: #f7aef8;
+}
+
+img {
+	border: solid;
+	border-width: 2px;
+	border-color: #ffc6ff;
+}
+
+/* These should be specific to about.html */
+.aboutgrid-container {
+	display: grid;
+	grid-template-columns: 60% 36%;
+	grid-template-rows: 1fr;
+	gap: 20px 20px;
+	grid-template-areas:
+		"left right";
+	align-content: space-evenly;
+}
+.aboutleft {
+	float: left;
+  width: 100%;
+}
+
+.aboutright {
+	float: right;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.container {
+  padding-top: 0;
+}
+
+table, th, td {
+  border: 5px solid #ffffff;
+  border-collapse: collapse;
+	height: 100%;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+	width: auto;
+	height: 100%;
+}
+
+/* These should be specific to resume.html */
+.resumegrid-container {
+  display: grid;
+  grid-template-columns: 60% 36%;
+  grid-template-rows: 1fr;
+  gap: 20px 20px;
+  grid-template-areas:
+    "left right";
+}
+.left {
+	grid-area: left;
+}
+.right {
+	grid-area: right;
+}
+
+.left {
+  float: left;
+  width: 100%;
+}
+.right {
+	float: right;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.card {
+	background-color: #ffc4d6;
+	padding: 20px;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: #ffacc5;
+	border-width: 20px;
+}
+
+.skills ul {
+	list-style: none;
+	padding-left: 2px;
+}
+.workexperience ul, li  {
+	list-style: square;
+  padding-left: 0;
+}
+
+.skills li > span {
+  display: inline-block;
+  width: 100%;
+}
+
+.expert::after {
+  content: "🟢 🟢 🟢 🟢";
+}
+
+.advanced::after {
+  content: "🟢 🟢 🟢";
+}
+
+.intermediate::after {
+  content: "🟢 🟢";
+}
+
+.beginner::after {
+  content: "🟢";
+}
+.resumefooter {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .left, .right {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+/* These should be specific to pictures.html */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 15px 15px;
+  grid-template-areas:
+    "brunch family noelle"
+    "seaspice polo wharf";
+	align-content: space-evenly;
+}
+
+.brunch { grid-area: brunch;
+}
+
+.family { grid-area: family;
+}
+
+.noelle { grid-area: noelle;
+}
+
+.seaspice { grid-area: seaspice;
+}
+
+.polo { grid-area: polo;
+}
+
+.wharf { grid-area: wharf;
+}
+
+.picturesnav {
+  overflow: hidden;
+	border: 0;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
