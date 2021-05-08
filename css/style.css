@@ -9,7 +9,9 @@ body {
   color: #000000;
   line-height: 1.5;
 	background-image: url("/Users/oliveahhope/Desktop/miami bitch/Spring 2021/JMM 431/assignments/veahhope.github.io/img/watercolor.png");
-	background: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 header {
