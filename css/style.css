@@ -8,9 +8,7 @@ body {
   font-family: "Jost", sans-serif;
   color: #000000;
   line-height: 1.5;
-	background: url("assignments/veahhope.github.io/img/background.png");
-	background-size: cover;
-
+	background-color: #f7cad0;
 }
 
 header {
