@@ -3,14 +3,12 @@
 	max-width: 960px;
 	margin: 0 auto;
 }
-html {
-  background-image: url("img/watercolor.png");
-}
 
 body {
   font-family: 'Jost', sans-serif;
   color: #000000;
   line-height: 1.5;
+	background-image: url("img/watercolor.png");
 }
 
 header {
